@@ -2,7 +2,7 @@ body{
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
-    padding:50px 140px 0px;
+    margin:50px 140px 0px;
     background-color: aqua;
     
 }
@@ -67,4 +67,52 @@ img{
     margin-top: 0px;
     margin-bottom: 48px;
 
+}
+
+/* .section-3 start */
+
+.section-3{
+    margin-top: 0px;
+    margin-bottom: 120px;
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+
+}
+.section-3 .header-3{
+    color: #FFF;
+
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    max-width: 622px;
+}
+.section-3 .description-3{
+    color: rgba(255, 255, 255, 0.80);
+
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    max-width: 697px;
+}
+.section-3 .text-3{
+    padding-top: 126px;
+    padding-left: 126px;
+
+}
+.btn-join{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+
+    margin-top: 0px;
+    margin-left: 158px;
+    margin-bottom: 142px;
+    margin: 0px auto 142px 158px;
+    background: none;
+    border: 0px;
 }
