@@ -1,0 +1,70 @@
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    padding:50px 140px 0px;
+    background-color: aqua;
+    
+}
+.section-1{
+    background-image: url(images/Banner\ Image.png);
+    background-repeat: no-repeat; 
+} 
+.banner-greeting{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 177px;
+    margin-bottom: 0px;
+    
+    
+    
+}
+.banner-title{
+    color:#FFF;
+    font-family: Merriweather;
+    font-weight: 900;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    padding: 0px 344px 177px;
+    /* padding-bottom: 177px; */
+    
+}
+
+/* Section-2 start */
+.section-2{
+    margin: 120px auto;
+    text-align: center;
+}
+img{
+    align-items: center;
+}
+.header-2{
+         color: #F00;
+        font-family: Inter;
+        font-size: 88px;
+        font-weight: 700; 
+        margin-bottom: 0px;
+}
+.description-2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 16px;
+
+}
+.title-2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 48px;
+
+}
