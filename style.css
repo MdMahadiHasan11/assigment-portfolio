@@ -1,10 +1,10 @@
 body{
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
-    font-family: 'Merriweather', serif;
-    margin:50px 140px 0px;
-    background-color: aqua;
-    
+    font-family: 'Merriweather', serif;  
+}
+header,main{
+    margin:50px 140px 0px;   
 }
 .section-1{
     background-image: url(images/Banner\ Image.png);
@@ -116,3 +116,114 @@ img{
     background: none;
     border: 0px;
 }
+/* Main section start here */
+.main-text-1 legend{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 0px;
+
+}
+.main-section-1 .main-header-1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.main-section-1 .main-description-1{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+    margin-bottom: 48px;
+    max-width: 60%;
+}
+.main-container-1 .container-element{
+    width:424px;
+    height: 450px;
+    border-radius: 16px;
+    margin:0px 24px 24px 0px;
+
+    
+}
+.main-container-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+
+
+/* subcribe start here */
+    .subscriber{
+            border-radius: 16px;
+            background: #FFF2F2;
+            /* margin-bottom: 400px; */
+            
+            }
+
+::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px auto 25px 30px;
+    }  
+    .sub-box input{
+        background: #FFF;
+        width: 648px;
+        height: 72px;
+        /* flex-shrink: 0; */
+        border-radius: 50px 0px 0px 50px;
+        margin-right: 0px;
+
+    }
+    .sub-box button{
+        background: #F00;
+        width: 210px;
+        height: 72px;
+        flex-shrink: 0;
+        border-radius: 0px 50px 50px 0px;
+        margin-left: 0px;
+        border: none;
+
+    }
+    .sub-icon .sub-icon-img{
+        margin-top: 80px;
+        align-items: center;
+    }
+    .sub-header{
+        color: #070211;
+        text-align: center;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-weight: 900;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .sub-description{
+        color: rgba(7, 2, 17, 0.60);
+        
+        /* max-width: 70%; */
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 22px;
+        margin-bottom: 48px;
+        padding: 0px 212px;
+        text-align: center;
+
+    }
+    .sub-btn input{
+        margin-bottom: 80px;
+        border: none;
+    }
+
+    footer h1{
+        background-color: black;
+    }
