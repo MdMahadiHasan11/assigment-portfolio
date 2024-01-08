@@ -9,6 +9,9 @@ header,main{
 .section-1{
     background-image: url(images/Banner\ Image.png);
     background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius: 16px;
+    background-color: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 } 
 .banner-greeting{
     color: #FFF;
@@ -32,6 +35,7 @@ header,main{
     margin-bottom: 0px;
     padding: 0px 344px 177px;
     /* padding-bottom: 177px; */
+    
     
 }
 
@@ -71,21 +75,29 @@ img{
 
 /* .section-3 start */
 
+
 .section-3{
     margin-top: 0px;
     margin-bottom: 120px;
-    background-image: url(images/Vectorrr.png);
+    background-image:url('images/Vectorrr.png');
+    
+    /* background-color: blueviolet; */
     background-repeat: no-repeat;
-
+    background-size: cover;
+    background-color:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    display: flex;
+    justify-content: space-between;
 }
+
+
 .section-3 .header-3{
     color: #FFF;
 
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
+    margin-right: 150px;
     letter-spacing: 7.04px;
-    max-width: 622px;
 }
 .section-3 .description-3{
     color: rgba(255, 255, 255, 0.80);
@@ -94,9 +106,21 @@ img{
     font-size: 18px;
     font-weight: 400;
     margin-top: 24px;
+    margin-right: 40px;
     margin-bottom: 48px;
-    max-width: 697px;
 }
+
+.sec-div-2{
+    /* background-color: #070211; */
+    padding-top: 67px;
+    padding-right: 138px;
+    padding-bottom: 67px;
+}
+
+.sec-div-1{
+    /* background-color: #0a8a1f; */
+}
+
 .section-3 .text-3{
     padding-top: 126px;
     padding-left: 126px;
@@ -116,6 +140,12 @@ img{
     background: none;
     border: 0px;
 }
+
+
+
+
+
+
 /* Main section start here */
 .main-text-1 legend{
     color: #F00;
@@ -147,6 +177,7 @@ img{
     height: 450px;
     border-radius: 16px;
     margin:0px 24px 24px 0px;
+    
 
     
 }
@@ -168,11 +199,14 @@ img{
 
 ::placeholder{
     color: rgba(7, 2, 17, 0.30);
-    text-align: center;
+
+    /* text-align: center; */
+    padding-left:30px;
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    padding: 25px auto 25px 30px;
+
+
     }  
     .sub-box input{
         background: #FFF;
@@ -187,11 +221,18 @@ img{
         background: #F00;
         width: 210px;
         height: 72px;
-        flex-shrink: 0;
         border-radius: 0px 50px 50px 0px;
         margin-left: 0px;
         border: none;
 
+    }
+    .sub-box p{
+        color: #FFF;
+
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
     }
     .sub-icon .sub-icon-img{
         margin-top: 80px;
