@@ -224,6 +224,50 @@ img{
         border: none;
     }
 
-    footer h1{
-        background-color: black;
+    footer{
+        padding: 120px 140px;
+        background: #070211;
     }
+
+    .foot-text{
+        width: 375px;
+    }
+    footer p{
+        color: #FFF;
+
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 500;
+    }
+.footer-section-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.foot-icon-row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}                               
+.foot-icon-row-1 p{ 
+    margin-left: 16px;
+    /* margin-bottom: 0; */
+}
+.footer-section-2{
+    text-align: center;
+    margin: 48px;
+}
+.footer-section-2 img{
+    margin-right: 24px;
+}
+
+#row-1{
+    margin-bottom:0px;
+
+}
+
+.footer-section-3{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
