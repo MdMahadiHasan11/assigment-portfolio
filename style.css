@@ -117,10 +117,6 @@ img{
     padding-bottom: 67px;
 }
 
-.sec-div-1{
-    /* background-color: #0a8a1f; */
-}
-
 .section-3 .text-3{
     padding-top: 126px;
     padding-left: 126px;
@@ -181,6 +177,14 @@ img{
 
     
 }
+.container-img:hover{
+ 
+    transform: scale(1.02) perspective(0px);
+    box-shadow: 4px 4px 4px rgba(60, 60, 93, 0.33)
+
+}
+
+
 .main-container-1{
     display: flex;
     flex-direction: row;
@@ -312,3 +316,6 @@ img{
     margin-top: 50px;
     justify-content: space-between;
 }
+
+
+
